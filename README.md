@@ -3,13 +3,15 @@ For the people who are curious to understand in a simplified setup:
 - **How the Bitcoin blockchain works**
 - **How mining works**
 
-## Step 1
+## What are bitcoin miners really solving?
+
+### Step 1
 
 At a high level, the miner software takes a list of active transactions, and then groups them together in something called a "block".
 
 Or more *accurately stated*: The miner software coverts all the transactions into a summary view called a "merkle root", and hashes it, which is representative of the transactions.
 
-## Step 2
+### Step 2
 
 Then mining software converts this to into a binary format called a Block Header, which also references the previous blocks (also called a chain).
 
@@ -31,11 +33,11 @@ Bits            Current target in compact format   The difficulty is adjusted   
 Nonce           32-bit number (starts at 0)       A hash is tried (increments)  4
 ```
 
-## Step 3
+### Step 3
 
 The miner hardware changes a small portion of this block called a "nonce".
 
-## Step 4
+### Step 4
 
 The block header is hashed and compared to the Target as if it were simply a large number like 10,000,000 > 7,000,000 (the real numbers are much bigger, and in hex). The target is compressed and stored in each block in a field called bits.
 
@@ -61,7 +63,7 @@ That previous hash was from today and has 14 leading zeroes. Let's compare that 
    Hash 00000000a8ed5e960dccdf309f2ee2132badcc9247755c32a4b7081422d51899
 ```
 
-## Summary
+### Summary
 
 So at the end of the day, all a miner does is:
 
