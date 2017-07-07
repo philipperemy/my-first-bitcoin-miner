@@ -67,10 +67,10 @@ That previous hash was from today and has 14 leading zeroes. Let's compare that 
 
 So at the end of the day, all a miner does is:
 
-Take a block header as input
-Change the Nonce
-Test if the Block Header hash is less than the Target. If it is, you win.
-Go to step 2 (or go to step 1 if someone else won the block)
+- Take a block header as input
+- Change the Nonce
+- Test if the Block Header hash is less than the Target. If it is, you win.
+- Go to step 2 (or go to step 1 if someone else won the block)
 
 
 ## References
