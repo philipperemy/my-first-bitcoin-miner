@@ -3,6 +3,8 @@ For the people who are curious to understand in a simplified setup:
 - **How the Bitcoin blockchain works**
 - **How mining works**
 
+This miner is not connected to the bitcoin network and is a very simplified version of what would be a real bitcoin miner. The purpose of this implementation is to provide a basic comprehension of the mining logic.
+
 ## What are bitcoin miners really solving?
 
 ### Step 1
