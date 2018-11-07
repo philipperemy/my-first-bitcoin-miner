@@ -13,11 +13,11 @@ This miner is not connected to the bitcoin network and is a very simplified vers
 
 At a high level, the miner software takes a list of active transactions, and then groups them together in something called a "block".
 
-Or more *accurately stated*: The miner software coverts all the transactions into a summary view called a "merkle root", and hashes it, which is representative of the transactions.
+Or more *accurately stated*: The miner software converts all the transactions into a summary view called a "merkle root", and hashes it, which is representative of the transactions.
 
 ### Step 2
 
-Then mining software converts this to into a binary format called a Block Header, which also references the previous blocks (also called a chain).
+The mining software then converts this to into a binary format called a Block Header, which also references the previous blocks (also called a chain).
 
 ```
 Field           Purpose                          Updated when...               Size (Bytes)
